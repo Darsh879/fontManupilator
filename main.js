@@ -40,6 +40,6 @@ function draw()
     fill('pink');
     stroke('pink');
 document.getElementById("text_side").innerHTML = "width and height of the text is = " + difference + "px";
+textSize(difference);
 text("darsh", noseX, noseY, difference);
-textSize(leftWristX, rightWristX);
 }
